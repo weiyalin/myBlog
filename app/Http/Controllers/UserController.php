@@ -115,7 +115,7 @@ class UserController extends Controller
      */
     public function doFollow($id)
     {
-        $user = $this->user->getById($id);
+        $user = User::query()->findOrFail($id);
 
         if (Auth::user()->isFollowing($id)) {
             Auth::user()->unfollow($id);
