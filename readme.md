@@ -4,7 +4,7 @@ This is a powerful blog, I try to build the blog more beautiful, more convenient
 
 `Laravel 5.*` and `Vuejs 2.*` combined with the establishment of a good response and quickly dashboard, the dashboard made through the `Vuejs` component development.
 
-[Example](http://example.pigjian.com)
+[Example](123.206.225.236)
 
 ## Basic Features
 

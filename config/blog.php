@@ -25,8 +25,10 @@ return [
 
     // Social Share
     'social_share' => [
-        'article_share'    => env('ARTICLE_SHARE') ?: true,
-        'discussion_share' => env('DISCUSSION_SHARE') ?: true,
+        //分享文章
+        'article_share'    => env('ARTICLE_SHARE') ?: false,
+        //讨论分享
+        'discussion_share' => env('DISCUSSION_SHARE') ?: false,
         'sites'            => env('SOCIAL_SHARE_SITES') ?: 'google,twitter,weibo',
         'mobile_sites'     => env('SOCIAL_SHARE_MOBILE_SITES') ?: 'google,twitter,weibo,qq,wechat',
     ],
@@ -39,8 +41,8 @@ return [
 
     // Article Page
     'article' => [
-        'title'       => 'Nothing is impossible.',
-        'description' => 'https://pigjian.com',
+        'title'       => '魏亚林、段振彪、赵聪丽',
+        'description' => '示例：123.206.225.236',
         'number'      => 15,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
@@ -57,15 +59,16 @@ return [
     'footer' => [
         'github' => [
             'open' => true,
-            'url'  => 'https://github.com/jcc',
+            'url'  => 'https://github.com/weiyalin',
         ],
         'twitter' => [
-            'open' => true,
+            'open' => false,
             'url'  => 'https://twitter.com/pigjian'
         ],
-        'meta' => '© PJ Blog 2016. Powered By Jiajian Chan',
+        'meta' => '© Blog 2018. Powered By Weiyalin',
     ],
 
-    'license' => 'Powered By Jiajian Chan.<br/>This article is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.',
+//    'license' => '原创 BY 魏亚林 <br/>This article is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.',
+    'license' => '原创 BY 魏亚林 <br/>转载请注明出处！',
 
 ];

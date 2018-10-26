@@ -57,11 +57,11 @@ export default [{
     permission: 'LIST_VISITOR',
     icon: 'fas fa-eye',
     uri: { name: 'dashboard.visitor' }
-  }, {
-    label: 'sidebar.role',
-    permission: 'LIST_ROLE',
-    icon: 'fas fa-exclamation-triangle',
-    uri: { name: 'dashboard.role' }
+  // }, {
+  //   label: 'sidebar.role',
+  //   permission: 'LIST_ROLE',
+  //   icon: 'fas fa-exclamation-triangle',
+  //   uri: { name: 'dashboard.role' }
   }, {
     label: 'sidebar.system',
     permission: 'LIST_SYSTEM_INFO',
